@@ -76,7 +76,6 @@
 .avatar-1BDn8e[src*="91271057306025984"] + h2::after,
 .avatar-1BDn8e[src*="311450704294445057"] + h2::after,
 .avatar-1BDn8e[src*="121563665999593472"] + h2::after,
-.avatar-1BDn8e[src*="688939680389267597"] + h2::after,
 .avatar-1BDn8e[src*="184531474387697664"] + h2::after,
 .avatar-1BDn8e[src*="210077770246520832"] + h2::after,
 .avatar-1BDn8e[src*="546911808498303041"] + h2::after,
@@ -108,7 +107,6 @@
 .avatar-1BDn8e[src*="91271057306025984"]:hover + h2::after,
 .avatar-1BDn8e[src*="311450704294445057"]:hover + h2::after,
 .avatar-1BDn8e[src*="121563665999593472"]:hover + h2::after,
-.avatar-1BDn8e[src*="688939680389267597"]:hover + h2::after,
 .avatar-1BDn8e[src*="184531474387697664"]:hover + h2::after,
 .avatar-1BDn8e[src*="210077770246520832"]:hover + h2::after,
 .avatar-1BDn8e[src*="546911808498303041"]:hover + h2::after,
@@ -195,14 +193,6 @@
 /*Flynn*/
 .avatar-1BDn8e[src*="121563665999593472"] + h2::after {
   background-image: url(https://i.imgur.com/iFiDeT2.png);
-  transition: filter .2s ease-in-out;
-  transform: scale(1.1);
-  height: 15px !important;
-  width: 15px !important;
-}
-/*ellimboso*/
-.avatar-1BDn8e[src*="688939680389267597"] + h2::after {
-  background-image: url(https://i.imgur.com/43AqEHk.png);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
   height: 15px !important;
