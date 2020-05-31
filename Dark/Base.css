@@ -1844,9 +1844,10 @@ html:not(.platform-win).theme-light #user-settings .item-PXvHYJ:nth-of-type(19),
     background-color: var(--background-tertiary);
 }
 
-div[role="group"] {
-    height: auto !important;
-}
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
     background-color: var(--background-modifier-selected);
+}
+
+div[role="group"] {
+    height: auto !important;
 }
