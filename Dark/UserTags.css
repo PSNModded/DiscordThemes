@@ -69,6 +69,7 @@
 .avatar-1BDn8e[src*="669701209174835219"] + h2::after,
 .avatar-1BDn8e[src*="108840353636827136"] + h2::after,
 .avatar-1BDn8e[src*="386933401434718239"] + h2::after,
+.avatar-1BDn8e[src*="716031856843423855"] + h2::after,
 .avatar-1BDn8e[src*="425918527308955649"] + h2::after,
 .avatar-1BDn8e[src*="152316505164349440"] + h2::after,
 .avatar-1BDn8e[src*="197112411793260544"] + h2::after,
@@ -100,6 +101,7 @@
 .avatar-1BDn8e[src*="669701209174835219"]:hover + h2::after,
 .avatar-1BDn8e[src*="108840353636827136"]:hover + h2::after,
 .avatar-1BDn8e[src*="386933401434718239"]:hover + h2::after,
+.avatar-1BDn8e[src*="716031856843423855"]:hover + h2::after,
 .avatar-1BDn8e[src*="425918527308955649"]:hover + h2::after,
 .avatar-1BDn8e[src*="152316505164349440"]:hover + h2::after,
 .avatar-1BDn8e[src*="197112411793260544"]:hover + h2::after,
@@ -136,6 +138,14 @@
 }
 /* BroModz */
 .avatar-1BDn8e[src*="386933401434718239"] + h2::after {
+  background-image: url(https://i.imgur.com/qpiu8t6.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+/* BroModz */
+.avatar-1BDn8e[src*="716031856843423855"] + h2::after {
   background-image: url(https://i.imgur.com/qpiu8t6.png);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
