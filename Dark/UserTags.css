@@ -72,6 +72,7 @@
 .avatar-1BDn8e[src*="716031856843423855"] + h2::after,
 .avatar-1BDn8e[src*="425918527308955649"] + h2::after,
 .avatar-1BDn8e[src*="152316505164349440"] + h2::after,
+.avatar-1BDn8e[src*="716264159871762452"] + h2::after,
 .avatar-1BDn8e[src*="197112411793260544"] + h2::after,
 .avatar-1BDn8e[src*="147805711265562626"] + h2::after,
 .avatar-1BDn8e[src*="91271057306025984"] + h2::after,
@@ -104,6 +105,7 @@
 .avatar-1BDn8e[src*="716031856843423855"]:hover + h2::after,
 .avatar-1BDn8e[src*="425918527308955649"]:hover + h2::after,
 .avatar-1BDn8e[src*="152316505164349440"]:hover + h2::after,
+.avatar-1BDn8e[src*="716264159871762452"]:hover + h2::after,
 .avatar-1BDn8e[src*="197112411793260544"]:hover + h2::after,
 .avatar-1BDn8e[src*="147805711265562626"]:hover + h2::after,
 .avatar-1BDn8e[src*="91271057306025984"]:hover + h2::after,
@@ -122,6 +124,14 @@
 
 /* mine */
 .avatar-1BDn8e[src*="669701209174835219"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/elleCrown.svg);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+/* mine */
+.avatar-1BDn8e[src*="716264159871762452"] + h2::after {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/elleCrown.svg);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
